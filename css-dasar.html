@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>belajar CSS internal</title>
+    <style>
+      /* ID = ditandain dengan simbol */
+      /* */
+      #page-title {
+        color: gold;
+      }
+      #box {
+        background-color: chocolate;
+      }
+      box-title {
+        color: white;
+        font-size: 24px;
+      }
+      box-text {
+        color: gold;
+        font-size: 14px;
+      }
+      #box2 {
+        border: 2px solid black; /* border tebal 2px, gaya solid, warna hitam */
+        width: 400px;
+        height: 200px;
+        padding: 50px;
+        margin: 20px;
+        background-color: rgb(155, 155, 66);
+      }
+      #box2 h2 {
+        text-align: center;
+        font-size: 38px;
+      }
+      #box2 p {
+        color: white;
+      }
+      #box2 p b {
+        font-size: 28px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="page-title ">belajar css internal</h1>
+    <hr />
+    <!--box ke satu 1 -->
+    <div id="box 1">
+      <h2>class="box-title">artikel baru...</h2>
+      <p class="box-text">ini artikel baru nya tod ... paham ga !!!</p>
+    </div>
+    <!-- box ke dua 2-->
+    <div id="box2">
+      <h2>artikel lama ini...</h2>
+      <p>ini artikel lama bang , <b>boleh di baca kagak bang ...</b></p>
+      <p>ini haruse terikut juga jadi putih teks nya</p>
+      <p class="box tex">ini alternative text cuma ada di id box 2 aja</p>
+    </div>
+    <!--box ke tiga 3-->
+    <div id="box3">
+      <h2 class="box-title">artikel ke-3</h2>
+      <p class="box-text">ini artikel ke-3 ga ada yg mau di bahas bang ...</p>
+    </div>
+  </body>
+</html>
