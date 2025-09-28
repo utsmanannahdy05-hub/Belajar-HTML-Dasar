@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 5 form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <!-- tag main = -->
+    <main class="container">
+      <h1>html 5 form tutorial</h1>
+      <hr />
+      <form>
+        <div>
+          <label for="">nama lengkap </label>
+          <input type="text" name="nama_lengkap" id="inputName" />
+        </div>
+
+        <div>
+          <label for="inputAge">umur 😊😊</label>
+          <input type="number" name="umur" id="inputUmur" />
+        </div>
+
+        <div>
+          <label for="inputBio">biografi </label>
+          <textarea name="" id="input bio"></textarea>
+        </div>
+
+        <div class="grid">
+          <!-- tips sorcut : button:[type-nya]-->
+          <button type="reset">batal</button>
+          <button type="submit">selesai</button>
+        </div>
+
+        <div>
+          <p>jenis kelamin</p>
+          <input type="radio" name="jenis_kelamin" id="inputLanang" />
+          <label for="inputLanang">Laki-laki</label>
+          <input type="radio" name="jenis_kelamin" id="inputWedo" />
+          <label for="inputWedo">perempuan</label>
+        </div>
+
+        <div>
+          <p>Hobi</p>
+          <input type="checkbox" name="Hobi" id="inputMancing" />
+          <label for="inputMancing">Mancing</label>
+          <input type="checkbox" name="Hobi" id="inputTuru" />
+          <label for="inputTuru">turu</label>
+          <input type="checkbox" name="Hobi" id="inputMaingame" />
+          <label for="inputMaingame">Main game</label>
+          <input type="checkbox" name="Hobi" id="inputMainbola" />
+          <label for="inputMainbola">Main bola</label>
+        </div>
+
+        <div>
+          <label for="InputKota">Asal Kota</label>
+          <select name="Kota" id="InputKota">
+            <option value="Jakarta">Jakarta</option>
+            <option value="Bogor">Bogor</option>
+            <option value="Depok">Depok</option>
+            <option value="Tangerang">Tangerang</option>
+            <option value="Bekasi">Bekasi</option>
+          </select>
+        </div>
+
+        <div>
+            <label for="InputDate">Tanggal Lahir</label>
+            <input type="date" name="TanggalLahir" id="InputDate" />
+        </div>
+        <div>
+            <label for="InputEmail">Email</label>
+            <input type="email" name="Email" id="InputEmail" />
+        </div>
+        <div>
+            <label for="InputPass">password</label>
+            <input type="password" name="Password" id="InputPass" />
+        </div>
+
+        <div>
+    <label for="inputFILE">Upload File:</label>
+    <input type="file" id="inputFILE" name="inputFILE">
+</div>
+
+      </form>
+    </main>
+  </body>
+</html>

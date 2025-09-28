@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 5 table</title>
+    <style>
+        #table-basic{
+            width: 60%;
+            border-collapse: collapse;
+        }
+
+        #table-basic td{
+            padding: 6px;
+            font-size: 16px;
+        }
+        #table-basic .bg-blue{
+            background-color: darkblue;
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>html 5 table</h1>
+    <hr />
+    <h3>table dasar</h3>
+    <!-- <tr> : untuk membuat baris -->
+    <!-- <td> untuk membuat data / kolom  -->
+    <table border="1" id="table-basic">
+      <tr>
+        <td>no</td>
+        <td>nama</td>
+        <td>asal</td>
+        <td>kewarga negaraan</td>
+      </tr>
+      <!-- shortcut: tr>td*3-->
+      <tr>
+        <td>.1</td>
+        <td>yunnus</td>
+        <td>medan</td>
+        <td>indonesia</td>
+      </tr>
+      <tr>
+        <td>.2</td>
+        <td>bilal</td>
+        <td>planet bekasi</td>
+        <td>indonesia</td>
+      </tr>
+    </table>
+
+    <h3>Table started html 5</h3>
+    <!-- shortcut; table>thed + tbody + tfot-->
+    <!-- <th> untuk membuat data / kolom di  -->
+
+    <table border="1" style="width: 50%">
+      <thead>
+        <tr>
+          <th>no</th>
+          <th>tanggal</th>
+          <th>nama barang</th>
+          <th>harga barang</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>.1</td>
+          <td>22/09/25</td>
+          <td>filla</td>
+          <td>500.000</td>
+        </tr>
+
+        <tr>
+          <td>2.</td>
+          <td>23/09/25</td>
+          <td>mobil</td>
+          <td>200.000</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>24/09/25</td>
+          <td rowspan="2">roti gembung coklat</td>
+          <td>35.000</td>
+        </tr>
+        
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3"><b>total pengeluaran </b></td>
+          <td><b>Rp.735.000</b></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
