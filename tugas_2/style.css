@@ -4,11 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-body {
-  background: #f9fafb;
+   background: #f9fafb;
   color: #333;
   line-height: 1.6;
 }
@@ -18,10 +14,6 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 10px;
-}
-
-
-.logo {
   text-align: center;
   margin-bottom: 10px;
 }
@@ -91,18 +83,18 @@ body {
 
 .avatar {
   width: 80px;
-  height: 220px;
+  height: 80px;
   object-fit: cover;
-  border-radius: 60%;
+  border-radius: 50%;
   border: 4px solid #e5e7eb;
   display: block;
-  margin: px auto;
+  margin: 0 auto;
 }
 
 .photo {
-  width: 120px; /* atau 250px sesuai kebutuhan */
-  height: 120px; /* samakan dengan width untuk bulat sempurna */
-  object-fit: cover; /* isi area tanpa distorsi */
-  border-radius: 60%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover; 
+  border-radius: 50%;
   border: 5px solid #e5e7eb;
 }

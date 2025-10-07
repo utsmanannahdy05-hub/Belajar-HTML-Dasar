@@ -1,0 +1,29 @@
+.galeri {
+  text-align: center;
+}
+
+/* ini untuk setiap figure class="card" yang ada di dalam galeri */
+.galeri .card {
+  display: inline-block;
+  width: 250px;           /* jangan 20px, terlalu kecil */
+  margin: 14px;
+  overflow: hidden;
+  border: 1px solid rgb(105, 100, 100);
+  border-radius: 8px;
+}
+
+/* styling gambar */
+.galeri .card img {
+  width: 100%;
+  height: 180px;          /* pakai px bukan % */
+  object-fit: cover;
+  border-bottom: 1px solid #666;
+}
+
+/* caption */
+.galeri .card figcaption {
+  background-color: teal;
+  color: white;
+  padding: 6px;
+  font-size: 14px;
+}
