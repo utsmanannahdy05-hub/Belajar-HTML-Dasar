@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'bismillah scrip';
+  src: url('Bismillah Script.ttf');
+}
+
+h1 {
+  font-family: 'bismillah scrip';
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: blue;
+}
+body {
+  font-family: 'Poppins', sans-serif; /* Gunakan font modern */
+  background-color: #ccd0d2; /* Warna latar belakang abu lembut */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Warna teks utama */
+}
+
+article h2 {
+  color: blue;
+}
+
+article {
+  background-color: #fff; /* warna kotaknya putih */
+  border-radius: 10px; /* sudut lembut */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* bayangan halus di bawah */
+  padding: 20px; /* ruang di dalam kotak */
+  width: 90%; /* biar sejajar dengan header */
+  margin: 20px auto; /* tengah dan beri jarak atas-bawah */
+}
+
+header {
+  background-color: #dfefff; /* Biru muda agar tenang */
+  text-align: center; /* Tengah-kan teks */
+  padding: 20px 20px; /* Tambah ruang dalam */
+  border-radius: 10px; /* Sudut melengkung */
+  margin: 20px auto;
+  width: 90%;
+}
+
+b {
+  color: #0f0d0d; /* Hitam agar tegas */
+}
+
+blockquote {
+  border-left: 5px solid #020471; /* Garis biru di sisi kiri */
+  background-color: #b8cce9; /* Latar biru lembut */
+  padding: 12px 18px;
+  font-style: italic;
+  color: #38404f;
+  margin: 20px auto;
+  border-radius: 4px;
+  width: 90%;
+  
+}
+
+.signature {
+  font-family: 'bismillah scrip';
+  font-size: 40px;
+  color: #ff0000;
+  text-align: right;
+  padding-right: 30px;
+}
+
+footer {
+  text-align: center; /* Teks di tengah */
+  padding: 10px 0; /* Spasi atas dan bawah */
+}
+
+.note {
+  border-left: 5px solid #cb0808; /* Garis biru di sisi kiri */
+  background-color: #e79999; /* Latar biru lembut */
+  padding: 12px 18px;
+  font-style: italic;
+  color: #000000;
+  margin: 20px auto;
+  border-radius: 4px;
+  width: 90%;
+}

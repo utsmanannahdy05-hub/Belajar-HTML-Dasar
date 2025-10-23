@@ -1,0 +1,77 @@
+.card {
+    background: white;
+    text-align: center;
+    height: 250;
+    width: 250;
+    /* line-height: 12; */
+    border: 2px dashed black;
+    border-radius: 6x;
+}
+#box-a {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+}
+#box-b {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    padding: 10px;
+}
+#box-c {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  padding: 10px;
+  border: 5px solid black;
+}  
+#box-d {
+    width: 200px;
+    height: 200px;
+    background: aqua;
+    padding: 10px;
+    border: 5px solid black;
+    margin:20px;
+    /*padding: 10px*/
+    /* padding: 10px 20px 10px 20px; cara cepat*/
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;  
+}
+#box-e {
+    width: 200px;
+    height: 200px;
+    background: red;
+    /* position: static*/
+}
+#box-f {
+   width: 200px;
+    height: 200px;
+    background: green;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    /* right: 10px */ 
+}
+#box-g {
+    width: 200px;
+    height: 200px;
+    background: gold;
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+}
+#box-h {
+    width: 200px;
+    height: 200px;
+    background: plum;
+    position: fixed;
+    bottom: 10px;
+    right:20px;
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+.card {
+  background: #f9f9f9;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 200px;
+  width: 200px;
+  border: 3px solid #eee;
+  border-radius: 6px;
+}
+
+/* wadah flexbox wajib display nya flex */
+.pricing-area {
+  display: flex;
+  flex-direction: row;
+  /* atur jarak antar items */
+  gap: 14px;
+  /*justify-conten : atur posisi horizontal */
+  justify-content: center;
+  /*atur posisi vertikalnya */
+  /* defaultnya flex-star*/
+  align-items: center;
+}
+.pro-blue {
+  border: 2px solid blue;
+  width: 250px;
+  height: 250px;
+}
+.alert {
+  display: flex;
+  background-color: rgb(151, 207, 236);
+  border: 2px solid rgb(54, 148, 220);
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}

@@ -1,0 +1,36 @@
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  color: rgb(126, 14, 14);
+  font-size: 80px;
+  font-family: 'fontsaya';
+}
+
+h2 {
+  font-weight: lighter;
+  font-family: "BBH Sans Hegarty", sans-serif;  
+}
+
+.paragraph {
+  width: 40%;
+  background-color: turquoise;
+}
+
+@font-face {
+  font-family: 'fontsaya';
+  src: url('fontsaya.woff2') format('truetype');
+}
+
+.paragraph p {
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.5;
+  letter-spacing: 4px;
+}
